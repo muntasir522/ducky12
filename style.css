@@ -1,0 +1,42 @@
+#division1{
+    
+    border: 10px dotted black;
+    background-color: aqua;
+    padding: 20px;
+    background-clip:border-box;
+    background-image: url(images.png);
+    background-repeat: no-repeat;
+    height:200px;
+    background-origin:content-box; 
+
+}
+#division2{
+    
+    border: 10px dotted black;
+    background-color: #582e14;
+    padding: 20px;
+    background-clip: padding-box;
+}
+#division3{
+    
+    border: 10px dotted black;
+    background-color: #67831c;
+    padding: 20px;
+    background-clip: content-box;
+    margin-left: 10px
+
+        
+}
+#f1 {
+    border: 2px solid red;
+    height:300px;
+    background-image:
+        url(paki.jpeg),url(fg.jpeg),url(butter.jpeg);
+    
+    background-repeat: no-repeat;
+    background-size: 200px 100px;
+    background-position:225 225, 225 225, 225 225; 
+    background-origin: content-box    
+    
+    
+}
